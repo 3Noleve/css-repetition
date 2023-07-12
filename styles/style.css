@@ -118,9 +118,15 @@ body {
 @media screen and (min-width: 1020px) {
   .sidebar {
     width: 240px;
-    height: calc(100vh + 5px);
+    height: auto;
     transform: translateX(-0px);
     position: relative;
+  }
+}
+
+@media screen and (min-width: 1120px) {
+  .sidebar {
+    height: calc(100vh + 5px);
   }
 }
 
