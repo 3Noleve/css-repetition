@@ -47,10 +47,7 @@ body {
   outline: none;
   border-radius: 12px;
   background-color: inherit;
-}
-
-.burger-menu:hover {
-  background-color: #99919169;
+  cursor: pointer;
 }
 
 @media screen and (min-width: 1020px) {
@@ -104,10 +101,12 @@ body {
 }
 
 .sidebar {
-  width: 280px;
-  height: 100vh;
   display: flex;
   position: fixed;
+  left: 0;
+  top: 0;
+  width: 280px;
+  height: 100vh;
   flex-direction: column;
   transform: translateX(-280px);
   background-color: #0e1217;
