@@ -9,14 +9,14 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Fira+Code&display=swap" rel="stylesheet" />
 
-  <title>Blog</title>
+  <title>Blog 📝</title>
 
 </head>
 
 <body>
   <div class="container">
     <header class="header">
-      <button class="burger-menu" onclick="toggleSidebar()">
+      <button class="burger-menu" onclick="openSidebar()">
         <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="burger-menu-icon">
           <path
             d="M19 16a1 1 0 01.117 1.993L19 18H5a1 1 0 01-.117-1.993L5 16h14zm0-5a1 1 0 01.117 1.993L19 13H5a1 1 0 01-.117-1.993L5 11h14zm0-5a1 1 0 01.117 1.993L19 8H5a1 1 0 01-.117-1.993L5 6h14z"
@@ -40,6 +40,15 @@
       <aside class="sidebar" id="sidebar">
         <div class="nav-container">
           <nav class="navbar">
+
+            <button class="close" onclick="closeSidebar()">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                class="lucide lucide-x">
+                <path d="M18 6 6 18" />
+                <path d="m6 6 12 12" />
+              </svg>
+            </button>
 
             <li class="nav-item-active">
               <div class="nav-item-button">

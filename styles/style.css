@@ -131,7 +131,11 @@ body {
 }
 
 .sidebar-open {
-  transform: translateX(0);
+  transform: translateX(-0px);
+}
+
+.sidebar-close {
+  transform: translateX(-280px);
 }
 
 .nav-container {
@@ -150,6 +154,16 @@ body {
   .navbar {
     margin-top: 32px;
   }
+}
+
+.close {
+  position: absolute;
+  top: 4px;
+  right: 10px;
+  background-color: inherit;
+  color: #fff;
+  border: none;
+  cursor: pointer;
 }
 
 .nav-items {
