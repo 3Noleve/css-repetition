@@ -1,9 +1,10 @@
 function openSidebar() {
   const sidebar = document.getElementById("sidebar");
-  sidebar.classList.toggle("sidebar-open");
+  sidebar.classList.add("sidebar-open");
 }
 
 function closeSidebar() {
   const sidebar = document.getElementById("sidebar");
-  sidebar.classList.toggle("sidebar-close");
+
+  sidebar.classList.remove("sidebar-open");
 }
