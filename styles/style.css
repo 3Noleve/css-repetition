@@ -124,12 +124,6 @@ body {
   }
 }
 
-@media screen and (min-width: 1120px) {
-  .sidebar {
-    height: calc(100vh + 5px);
-  }
-}
-
 .sidebar-open {
   transform: translateX(0px);
 }
